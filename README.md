@@ -6,7 +6,7 @@ Web Application for a car rental application "Hiring Wheels"
 ## 🚀 Team Members
 - Soumyadip Das (20csu214)
 - Shubham (20csu326)
-
+- Anshit Kumar (20csu188)
 
 ## Tech Stack
 
@@ -27,8 +27,8 @@ Web Application for a car rental application "Hiring Wheels"
 | 5| Role |
 | 6| Users |
 | 7| Vehicle |
-| 8| Vehicle Category |
-| 9| Vehicle SubCategory |
+| 8| Vehicle_Category |
+| 9| Vehicle_SubCategory |
 
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/7dc222fc-f4d5-4691-9062-7689b17d2943)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/7dc222fc-f4d5-4691-9062-7689b17d2943)
@@ -41,9 +41,9 @@ Web Application for a car rental application "Hiring Wheels"
 ## API Reference
 
 #### Create User
-
+For creating a new user.
 ```
-  http:localhost:8080/createUser
+ POST http:localhost:8080/createUser
 ```
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/7e93bb25-4f58-45dc-aa5c-c6205ab12f62)
 
@@ -52,9 +52,9 @@ Web Application for a car rental application "Hiring Wheels"
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/969304c5-8168-4d0b-9351-0177f78a2ab7)
 
 #### Login User
-
+Login using existing credentials.
 ```
-  http:localhost:8080/loginUser
+ POST http:localhost:8080/loginUser
 ```
 
 
@@ -63,11 +63,11 @@ Web Application for a car rental application "Hiring Wheels"
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/c7f1cf30-d9c4-42ca-854f-baf2e8f491ac)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/f5430ab5-1be7-421a-a210-250617c5b561)
 
-
 #### Register Vehicle
+Registering a new vehicle.
 
 ```
-  http:localhost:8080/registerVehicle
+ POST http:localhost:8080/registerVehicle
 ```
 
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/7e749eb7-0f59-4a9d-9f9b-accaec197766)
@@ -80,12 +80,15 @@ Web Application for a car rental application "Hiring Wheels"
 
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/321d0545-4b70-4f83-bfc4-c8095d4c17c0)
 #### Update Availability
+
+Updating Availability of the Vehicle.
+
 ```
 VehicleId: 0(Not Available)
 VehicleId: 1(Available)
 ```
 ```
-  http:localhost:8080/updateAvailability
+ POST http:localhost:8080/updateAvailability
 ```
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/8fc73c00-932c-4362-9b78-a1823605fbd6)
 
@@ -96,17 +99,17 @@ VehicleId: 1(Available)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/d04670bb-575f-47f2-ae3b-74b3a0605157)
 
 #### Vehicles
-
+Getting info for the existing Vehicles.
 ```
-  http:localhost:8080/vehicles
+ GET http:localhost:8080/vehicles
 ```
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/d768edb6-eab9-4a02-a6f7-7f585555ef32)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/7adf7668-8bb0-4f8e-a237-60a3ee4f43ed)
 
 #### Booking
-
+Booking a vehicle from available vehicles.
 ```
-  http:localhost:8080/booking
+ POST http:localhost:8080/booking
 ```
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/49a8104a-b827-4f25-9e77-f498a64db4cd)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/b2ecd7bc-84cf-497b-891a-938fd143f6ee)
@@ -115,25 +118,15 @@ VehicleId: 1(Available)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/7555ef39-9989-49e5-b4fa-df1cb66a4f86)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/c176771a-b2f5-43ef-8377-e7276df7d59d)
 
-#### List of Avilable Vehicles
-
+#### List of Available Vehicles
+List of the vehicles available for the particular location.
 ```
-  http:localhost:8080/availableVehicles
+ POST http:localhost:8080/availableVehicles
 ```
-
 
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/c7e1ac02-f038-4f1d-a0da-d867b6e0089e)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/f623bac7-47b7-4cd3-a866-ada311018a72)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/86b94e22-77da-44f0-9632-ec9dd6aa7238)
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/f3a9771b-7f91-4e36-a46f-d9fdedef2a2b)
-
 ![image](https://github.com/Soumyadip1245/HiringWheels/assets/97156552/f921a33c-95a6-4dd0-8699-7b995f8bbd02)
-
-
-
-
-
-
-
-
 
