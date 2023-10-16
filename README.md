@@ -1,4 +1,3 @@
-
 # Hiring Wheels
 
 Web Application for a car rental application "Hiring Wheels"
